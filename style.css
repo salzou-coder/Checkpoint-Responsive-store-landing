@@ -1,0 +1,43 @@
+/* Global styles */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background: url("https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&h=750")
+    center/cover no-repeat;
+  height: 100vh;
+}
+
+.hero h1 {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Buttons */
+.btn-warning {
+  background-color: #f4a261;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e76f51;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Adjusting product images */
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
